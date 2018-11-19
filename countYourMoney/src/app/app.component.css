@@ -1,0 +1,32 @@
+.containerButton{
+  text-align: center;
+}
+.form-control{
+  margin: auto;
+  min-width: 50%;
+}
+.btn{
+  margin:auto;
+  min-width: 35%;
+}
+.form-inline{
+  padding:5px;
+}
+h1{
+  font-size: 50px;
+}
+.header {
+  overflow: hidden;
+  background-color: lightgreen;
+  padding: 50px 10px;
+  text-align:center;
+}
+.header:hover {
+  transition: ease-in-out,background-color .15s
+  ease-in-out;
+  background-color: #ddd;
+  color: black;
+}
+.container{
+  margin-top:100px;
+}

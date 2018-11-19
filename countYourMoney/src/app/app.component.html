@@ -1,0 +1,25 @@
+<div class="header">
+<h1>Count Your Money</h1>
+  <div class="header-right">
+  </div>
+</div>
+<div class="container ">
+<div class="form-group">
+  <div class="form-inline">
+    <input #MyDate class="form-control text-center" type="text"  placeholder="Date" name="Date" ngModel >
+  </div>
+  <div class="form-inline">
+    <input #MyProduct class="form-control text-center" type="text"  placeholder="Product" name="money" ngModel >
+  </div>
+    <div class="form-inline">
+      <input #MyPrice class="form-control  text-center" type="text"  placeholder="Price LEI" name="money" ngModel >
+    </div>
+    <div class="form-inline">
+      <input #MyAmount class="form-control m text-center" type="text"  placeholder="Amount" name="money" ngModel >
+    </div>
+
+
+</div>
+<div class="containerButton">
+<button  class="btn btn-outline-success my-2 my-sm-0"(click)="addMoney(MyDate.value,MyProduct.value,MyPrice.value,MyAmount.value)">Click Me</button>
+</div>
